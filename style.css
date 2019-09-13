@@ -1,0 +1,197 @@
+#particles-js {
+
+    background-color: black;
+}
+
+.inicio {
+    height: 100vh;
+}
+
+
+.hero {
+    height: 100vh;
+    /*align-items:center;*/
+    justify-content: center;
+    display: flex;
+}
+
+.seta {
+    color: whitesmoke;
+    /* font-size: 10vh;
+height:100vh;*/
+    /* margin-top: -200px;*/
+    align-items: bottom;
+    /* */
+    justify-content: center;
+    display: flex;
+        position: absolute;
+    bottom: 0%;
+    width: 100vw;
+    transform: translate(-0%, -0vh);
+}
+
+
+.grad-transicao-1 {
+    max-width: 100%;
+    background-image: linear-gradient(to bottom, rgba(0,0,0,0), rgba(0,0,0,1)); /* Standard syntax (must be last) */
+}
+
+
+.titulo-nome {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    /* align-items:center;
+justify-content: center;
+display: flex; */
+}
+
+.titulo-alinhar {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    transform: translate(-0%, -50%);
+
+    /*vertical-align: middle;
+    background: aqua;
+    align-items: center;
+    justify-content: center;
+    display: flex;*/
+}
+
+
+
+.photoshop-bg {
+    /* The image used */
+    background-image: url('/Images/layout-bg.png');
+
+    /* Full height
+    min-height: 50vh;*/
+    height: 100%;
+
+    width: 100%;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.codigo-bg {
+    /* The image used */
+    background-image: url('/Images/programming-bg.jpg');
+
+    /* Full height
+    min-height: 50vh;*/
+    height: 100%;
+
+    width: 100%;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.arte-3d-bg {
+    /* The image used */
+    background-image: url('Images/anvil_5.png');
+
+    /* Full height
+    min-height: 50vh;*/
+    height: 100%;
+
+    width: 100%;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+@keyframes seta-keyframes {
+    0% {
+
+        opacity: 1.0;
+    }
+    33% {
+        opacity: 0.3;
+    }
+    100% {
+        opacity: 1.0;
+    }
+
+}
+
+
+
+
+.seta-animacao-1 {
+    animation: seta-keyframes 1s ease-in 0s alternate infinite none running;
+}
+
+.seta-animacao-2 {
+
+    animation: seta-keyframes 1s ease-in 0s alternate infinite none running;
+    animation-delay: -0.2s;
+}
+
+.seta-animacao-3 {
+
+    animation: seta-keyframes 1s ease-in 0s alternate infinite none running;
+    animation-delay: -0.4s;
+}
+
+
+
+
+.titulo {
+
+    color: whitesmoke;
+    /* letter-spacing: 2vw; */
+    border-bottom: 1px solid #000;
+    padding-bottom: 1px;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: whitesmoke;
+
+    border-top: 1px solid #000;
+    padding-top: 1px;
+    border-top-width: 1px;
+    border-top-style: solid;
+    border-top-color: whitesmoke;
+}
+
+
+@media screen and (min-width: 600px) {
+    .titulo {
+        letter-spacing: 2vw;
+
+    }
+}
+
+
+
+
+
+
+.subtitulo {
+
+    color: whitesmoke;
+    margin-top: 2vh;
+    margin-bottom: 8vh;
+    border-bottom: 1px solid #000;
+    padding-bottom: 10px;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: whitesmoke;
+
+    border-top: 1px solid #000;
+    padding-top: 10px;
+    border-top-width: 1px;
+    border-top-style: solid;
+    border-top-color: whitesmoke;
+}

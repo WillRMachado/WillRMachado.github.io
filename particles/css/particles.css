@@ -1,0 +1,38 @@
+
+/* =============================================================================
+   My CSS
+   ========================================================================== */
+
+/* ---- base ---- */
+
+
+canvas {
+    display: block;
+    vertical-align: bottom;
+}
+
+
+
+/* ---- particles.js container ---- */
+
+#particles-js {
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+     background-color: #b61924;
+    /*background-image: url('');
+    background-size: cover;
+    background-position: 50% 50%;
+    background-repeat: no-repeat; */
+    background: $background;
+
+}
+
+/*
+#particles canvas {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+*/
